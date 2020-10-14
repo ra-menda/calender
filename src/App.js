@@ -27,6 +27,10 @@ class App extends Component {
       <div className="App">
         <p className="App-intro">
           UID: {this.state.user && this.state.user.uid}
+          
+        </p>
+        <p>
+        ココにメモ
         </p>
 
         {this.state.user ? (
