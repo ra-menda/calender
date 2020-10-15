@@ -30,7 +30,7 @@ class App extends Component {
           
         </p>
         <p>
-        ココにメモ
+        Macメモ
         </p>
 
         {this.state.user ? (
