@@ -27,10 +27,9 @@ class App extends Component {
       <div className="App">
         <p className="App-intro">
           UID: {this.state.user && this.state.user.uid}
-          
         </p>
         <p>
-        Macメモ
+        ユーザーネーム：{this.state.user && this.state.user.displayName}
         </p>
 
         {this.state.user ? (
