@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "ra-men",
     "public": "build",
     "ignore": [
       "firebase.json",
