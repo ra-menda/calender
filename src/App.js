@@ -13,7 +13,9 @@ export default class App extends Component {
       month_days: {
         20210522: { is_holiday: true },
         20210523: { text: '課題' },
-        20210524: { text: '課題2' }
+        20210524: { text: '課題2' },
+        20210525: { text: '課題2' }
+
       }
     };
     this.getTileClass = this.getTileClass.bind(this);
