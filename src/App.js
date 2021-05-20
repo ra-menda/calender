@@ -11,9 +11,11 @@ export default class App extends Component {
       date: null,
       //月のデータ
       month_days: {
-        20201020: { is_holiday: true },
-        20201021: { text: '課題' },
-        20201022: { text: '課題2' }
+        20210522: { is_holiday: true },
+        20210523: { text: '課題' },
+        20210524: { text: '課題2' },
+        20210525: { text: '課題2' }
+
       }
     };
     this.getTileClass = this.getTileClass.bind(this);
